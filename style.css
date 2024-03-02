@@ -1,0 +1,495 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+span, a, label {
+    display: inline-block;
+}
+.h2{
+    color: #EEEEEE;
+    font-size: 30px;
+}
+.header{
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2E343C;
+    background-color: #222831;
+    padding-right: 50px;
+}
+.ax{
+   padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.div{
+ display: flex;
+ align-items: center;
+  width: 40%;
+    
+}
+.pp{
+    display: none;
+}
+.a1{
+    text-decoration: none;
+    font-size: 20px;
+    color: #EEEEEE;
+    margin-right: 20px;
+  
+}
+ .a1:hover{
+    transform: scale(1.2);
+    color: #E1E1E1;
+ }
+.max{
+    padding: 250px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("doodles\ mixed\ round\ \(1\).png"),url("Vector\ 187\ \(1\).png"),linear-gradient(#222831,#222831);
+    background-position: right 15%  center,top 15% left 9%,center;
+    background-repeat: no-repeat;
+    background-size: 30% , 5%, cover;
+  
+}
+.div1{
+    width: 50%;
+}
+.h1{
+    font-size: 70px;
+    color: #EEEEEE;
+ }
+.span1{
+    color: #00ADB5;
+}
+.btn1, .btn2{
+    padding: 6px 16px;
+    border: none;
+    border-radius: 20px;
+    text-shadow: 1px 1px 4px black;
+    font-weight: bold;
+}
+.btn2{
+    color: #EEEEEE;
+    background-color: #333941;
+}
+i{
+    margin-left: 4px;
+}
+.btn1{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    text-shadow: 1px 1px 4px black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.pic2{
+    margin-top: 150px ;
+   
+}
+.pic1{
+    margin-top: 90px;
+}
+.div2{
+    margin-top: 50px;
+}
+
+.big{
+    padding: 150px;
+    padding: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("doodle\ items\ \(1\).png"),url("lightbulb.png"),url("Vector\ 186\ \(1\).png"),linear-gradient(#222831,#222831);
+    background-position: right 17%  center,top 20% left 37%  ,bottom 20% left 20% ,center;
+    background-repeat: no-repeat;
+    background-size: 30% , 4%, 7%,cover;
+  
+}
+.dic{
+    width: 300px;
+    line-height: 1.6;
+
+}
+.spanm{
+    font-size: 20px;
+    font-weight: bold;
+}
+.h22{
+    font-size: 40px;
+    color: #EEEEEE;
+}
+.spann{
+    color: #00ADB5;
+}
+.p1{
+    color: #EEEEEE;
+    font-size: 18px;
+}
+.pic3{
+    width: 30%;
+}
+.more{
+    padding: 250px 150px;
+    background-image:linear-gradient(#2228310b,#22283111), url("doodle\ items\ \(1\).png"),linear-gradient(#222831,#222831);
+    background-position: center,center,center;
+   
+}
+.h12{
+    font-size: 45px;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+.sp{
+    color: #00ADB5;
+}
+.btn4{
+    padding: 8px 16px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px black;
+    border: none;
+    background-color: #2D333B;
+    color: #EEEEEE;
+    border-radius: 18px;
+    margin-bottom: 50px;
+    transition: 0.4s all linear;
+}
+.btn4:hover{
+    background-color: #00ADB5;
+}
+.lo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+.cart{
+    padding: 40px;
+    background-color: #2d333bc0;
+    width: 30%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 250px 150px;
+    background-image: url('keyboard.png'), url('mail.png'),url('Vector\ 187\ \(1\).png'), linear-gradient(#222831,#222831);
+    background-position: top 20% right 40%,bottom 17% right 15% ,bottom 35% left 10%,center;
+    background-repeat: no-repeat;
+}
+.g1{
+    font-size: 44px;
+    color: #EEEEEE;
+}
+.spanb{
+    color: #00ADB5;
+}
+.f1{
+    margin-top: 50px;
+    width: 48%;
+}
+.pic6{
+    margin-top: 70px;
+   margin-left: 130px;
+ 
+}
+.form{
+    width: 48%;
+    margin-top: 100px;
+}
+.inp1, .inp2{
+    width: 100%;
+padding: 8px 14px;
+border-radius: 20px;
+border: none;
+outline: none;
+background-color: #2E333B;
+color: #EEEEEE;
+}
+.label1{
+    margin-bottom: 8px;
+    color: #EEEEEE;
+}
+.divx{
+    width: 47%;
+}
+.ust{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.text{
+    width: 100%;
+    height: 250px;
+    background-color: #2E333B;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    color: #EEEEEE;
+}
+.btn0{
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    text-shadow: 1px 1px 8px black;
+}
+.footer{
+    padding: 150px;
+    text-align: center;
+    background-color: #222831;
+    border-top: 1px solid #EEEEEE;
+}
+.p{
+    padding: 30px 40px;
+}
+.a{
+    margin-right: 20px;
+    font-size: 25px;
+    color: #E1E1E1;
+}
+.io{
+    color: #E1E1E1;
+    margin-right: 6px;
+}
+.past{
+    padding: 20px 30px;
+
+}
+.iconka{
+    font-size: 24px;
+    margin-right: 18px;
+    color: #E1E1E1;
+    background-color: #393E46;
+    border-radius: 50%;
+    padding: 10px;
+}
+.bars{
+    display: none;
+}
+
+
+/*media*/
+@media(max-width:1130px){
+  .h1{
+    color: 50px;
+  }
+  .pic6{
+    margin-left: 90px;
+  }
+}
+@media(max-width:1023px){
+        .g1{
+            font-size: 39px;
+        }
+        .pic6{
+            margin-left: 0px;
+          }
+}
+@media(max-width:930px){
+.div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pp{
+    display: block;
+color: #E1E1E1;
+font-size: 25px;
+}
+.ax{
+    position: absolute;
+    padding: 20px 30px;
+    top: 100%;
+    right: 0;
+    background-color: #393E46;
+    border-radius: 20px;
+    display: none;
+    
+    justify-content: center;
+    width: 400px;
+}
+.a1{
+    width: 30%;
+    margin: 0;
+}
+.div:hover .ax{
+    display: block;
+}
+.max{
+    padding: 80px;
+    background-size: 38%, 10%,cover;
+}
+.big{
+    padding: 80px;
+}
+.more{
+    padding: 80px;
+}
+.box{
+    padding: 80px;
+}
+.footer{
+    padding: 80px;
+}
+}
+@media(max-width:780px){
+    .div1{
+        width: 100%;
+    }
+    .max{
+        background-position: bottom 10% center,top 15% left 9%,center;
+        background-size: 55%,10%,cover;
+    }
+    .dic{
+        width: 100%;
+    }
+    .big{
+        background-position: bottom 10% center,top 15% left 9%,right 20% top 30%,center; 
+        background-size: 50%, 10%,10%,cover;
+    }
+    .f1{
+        width: 100%;
+        text-align: center;
+    }
+    .form{
+        width: 100%;
+    }
+    .box{
+        background-position: top 20% right 20%,bottom 20% right 3% ,top 40% left 10%,center;
+    }
+    .h1{
+        text-align: center;
+    }
+    .div2{
+        text-align: center;
+    }
+    .pic2{
+        display: none;
+    }
+    .pic3{
+        width: 50%;
+
+    }
+}
+
+@media(max-width:670px){
+    .max, .big, .footer,.box, .more{
+        padding: 40px 20px;
+    }
+}
+@media(max-width:580px){
+    .max{
+        background-size: 70%,10%,cover;
+    }
+    .p{
+        width: 100%;
+    }
+    .h1{
+        font-size: 44px;
+    }
+    .h2{
+        font-size: 24px;
+    }
+    .pp{
+        font-size: 18px;
+    }
+    .h12{
+        font-size: 35px;
+    }
+    .cart{
+        width: 100%;
+    }
+    .lo{
+        row-gap: 10px;
+    }
+    .a{
+        font-size: 20px;
+    }
+    .iconka{
+        font-size: 20px;
+    }
+}
+@media(max-width:480px){
+    .max, .big, .footer,.box, .more{
+        padding: 40px 10px;
+    } 
+    .p, .past{
+        padding: 8px 6px;
+    }
+    .past{
+        margin-top: 10px;
+    }
+    .ax{
+        padding: 8px 10px;
+        width: 300px;
+        border-radius: 17px;
+    }
+    .header{
+        padding: 10px 20px;
+    }
+    .a1{
+        font-size: 16px;
+        margin:1px ;
+    }
+    
+        .max{
+            background-size: 100%,10%,cover;
+        }
+        .box{
+            background-position: top 20% right 20%,bottom 20% right 3% ,top 40% left 10%,center;
+                background-size: 30%, 20%,20%,cover;
+        }
+        .big{
+            background-position: bottom 10% center,top 15% left 9%,right 20% top 30%,center; 
+            background-size: 70%, 10%,10%,cover;
+        }
+}
+@media(max-width:350px){
+    .a{
+        margin-right: 6px;
+    }
+    .ax{
+        width: 200px;
+       max-height: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.7;
+    }
+    .a1{
+        font-size: 19px;
+        width: 100%;
+        margin: 0;
+    }
+    .btn4{
+        margin-right: 5px;
+    }
+}
