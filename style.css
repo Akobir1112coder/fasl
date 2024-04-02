@@ -81,6 +81,31 @@ span, a, label {
 .btn2{
     color: #EEEEEE;
     background-color: #333941;
+    position: relative;
+    z-index: 1;
+}
+.btn2::before{
+position: absolute;
+content: '';
+width: 0;
+height: 100%;
+border-radius: 20px;
+z-index: -1;
+background-color: #009CA3;
+left: 0;
+top: 0;
+transition: 0.6s;
+}
+.btn2:hover::before{
+    width: 100%;
+}
+.fa-download{
+    animation: aylan 2s infinite;
+}
+@keyframes aylan{
+    100%{
+        transform: rotateY(360deg);
+    }
 }
 i{
     margin-left: 4px;
@@ -92,7 +117,9 @@ i{
     font-weight: bold;
     margin-right: 20px;
 }
-
+.aaaa{
+    text-decoration: none;
+}
 .pic2{
     margin-top: 150px ;
    
@@ -272,7 +299,7 @@ color: #EEEEEE;
     color: #E1E1E1;
 }
 .io{
-    color: #E1E1E1;
+    
     margin-right: 6px;
 }
 .past{
@@ -285,13 +312,32 @@ color: #EEEEEE;
     color: #E1E1E1;
     background-color: #393E46;
     border-radius: 50%;
-    padding: 10px;
+    padding: 10px 11px;
+transition: 0.4s;
+}
+.iconka:hover{
+    box-shadow: 0px 0px 18px black;
 }
 .bars{
     display: none;
 }
-
-
+.a{
+    padding: 10px;
+    transition: 0.4s;
+}
+.aad:hover{
+    box-shadow: inset 0px 0px 10px lime;
+    color: lime;
+}
+.aaaq:hover{
+    box-shadow:inset 0px 0px 10px #009CA3 ;
+ 
+    color: #009CA3;
+}
+.aas:hover{
+    box-shadow:inset 0px 0px 10px red ;
+    color: rgba(255, 0, 0, 0.842);
+}
 /*media*/
 @media(max-width:1130px){
   .h1{
